@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  color: #2b2b2b;
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+}
+
+header {
+  background-color: #333333;
+  text-align: center;
+  padding: 10x;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+header h1 {
+  color: #d1d1d1;
+  font-size: 2.5rem;
+}
+
+header h1 span {
+  color: #fd8a24;
+}
+
+.social-media-icon {
+  width: 1.3rem;
+}
+
+span.img-bottom-content {
+  color: #686868;
+  font-size: 0.8rem;
+  display: block;
+  margin-bottom: 2.5rem;
+}
+
+.main-container {
+  max-width: 885px;
+  margin: auto;
+  margin-top: 64px;
+}
+
+.main-container h2 {
+  font-size: 3.3rem;
+  margin-bottom: 1.25rem;
+}
+
+.main-container .author {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 2rem;
+}
+
+.main-container .author .span-author {
+  color: #555555;
+  font-weight: 700;
+}
+
+.main-container .author .time-socialmedia {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-container .author .time-socialmedia .news-time {
+  color: #686868;
+  font-size: 0.8rem;
+}
+
+.main-container .author ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 2.5rem;
+}
+
+.main-container .img01 {
+  width: 100%;
+}
+
+.content-container {
+  max-width: 73%;
+  margin: auto;
+}
+
+.content-container h3 {
+  font-size: 2rem;
+}
+
+.content-container p {
+  line-height: 2rem;
+}
+
+.content-container img {
+  width: 100%;
+}
+
+footer {
+  background-color: #333;
+}
+
+footer .footer-container {
+  padding: 0.7rem 0 1rem 0;
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h4 {
+  font-size: 2.1rem;
+  color: #fd8a24;
+  margin-bottom: 0.75rem;
+}
+
+footer span {
+  color: #d1d1d1;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.65rem;
+  color: #f2f2f2;
+  line-height: 0.77rem;
+}
+
+footer .copyright {
+  max-width: 620px;
+}
+
+footer .terms-n-privacy {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  gap: 1.3rem;
+}
+
+footer .terms-n-privacy span {
+  color: #f2f2f2;
+  font-size: 0.8rem;
+}
+
+footer .terms-n-privacy span a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 0.7rem;
+}
